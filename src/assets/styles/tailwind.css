@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* @apply bg-surface; */
+  /* background-image: radial-gradient(circle farthest-corner at 1.5% 7.8%, rgba(247, 179, 140, 1) 0%, rgba(229, 118, 127, 1) 48.2%, rgba(149, 83, 153, 1) 100.2%); */
+  background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+  background-attachment: fixed;
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(171, 155, 155, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(171, 155, 155, 0.3);
+}
